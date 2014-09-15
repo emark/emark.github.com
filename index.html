@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -86,16 +86,22 @@
     <!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<!-- Google maps API -->
-	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=ru"></script>
 	<script>
 		function initialize() {
 	    	var mapCanvas = document.getElementById('map_canvas');
 	    	var mapOptions = {
 	    		center: new google.maps.LatLng(56.021501, 92.794442),
-	   			zoom: 17,
+	   			zoom: 16,
 	    		mapTypeId: google.maps.MapTypeId.ROADMAP
 	    	}
 	    	var map = new google.maps.Map(mapCanvas, mapOptions);
+	    	var myLatlng = new google.maps.LatLng(56.021501, 92.794442);
+			var marker = new google.maps.Marker({
+  				position: myLatlng,
+  				map: map,
+  				title:"Электронный маркетинг"
+			});
 	  	}
 		google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
