@@ -1,0 +1,3 @@
+User-agent: *
+Host: www.emrk.ru
+Sitemap: http://www.emrk.ru/sitemap.xml
