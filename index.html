@@ -74,6 +74,7 @@
   				<a href="tel:+7 (391) 292-02-29" class="btn btn-default btn-block"><span class="glyphicon glyphicon-phone-alt"></span> Позвонить</a>
   		  		<a href="mailto:mailbox@emrk.ru" class="btn btn-default btn-block"><span class="glyphicon glyphicon-envelope"></span> Написать</a>
   				<a href="//plus.google.com/u/0/104567324074342687377?prsrc=3" rel="publisher" target="_top" class="btn btn-default btn-block"><img src="//ssl.gstatic.com/images/icons/gplus-16.png" alt="Google+" style="border:0;width:16px;height:16px;"/> Почитать</a>
+  				<a href="https://goo.gl/maps/MYKlw" class="btn btn-default btn-block"><span class="glyphicon glyphicon-map-marker"></span> Карта</a>		
 			</div>
 		</div>
 	
@@ -82,10 +83,10 @@
 		</div>	
 		
 		<div class="row">	
-			<div class="col-md-12 col-sm-12">
+			<div class="col-md-12 col-sm-12 hidden-xs">
 			
 				<h3 class="map">Где нас найти?</h3>
-				<div id="map_canvas" style="height:400px"></div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2229.8366720943145!2d92.79444199999999!3d56.021501!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5cd7adbb60f2993b%3A0x49ed8329acd719a4!2z0K3Qu9C10LrRgtGA0L7QvdC90YvQuSDQvNCw0YDQutC10YLQuNC90LM!5e0!3m2!1sru!2sru!4v1411360039766" width="100%" height="450" frameborder="0" style="border:0"></iframe>
 			</div>
 		</div>	
 		<div class="row">
@@ -103,26 +104,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	<!-- Google maps API -->
-	<script src="https://maps.googleapis.com/maps/api/js?language=ru"></script>
-	<script>
-		function initialize() {
-	    	var mapCanvas = document.getElementById('map_canvas');
-	    	var mapOptions = {
-	    		center: new google.maps.LatLng(56.021501, 92.794442),
-	   			zoom: 16,
-	   			disableDefaultUI: true,
-	    		mapTypeId: google.maps.MapTypeId.ROADMAP
-	    	}
-	    	var map = new google.maps.Map(mapCanvas, mapOptions);
-	    	var myLatlng = new google.maps.LatLng(56.021501, 92.794442);
-			var marker = new google.maps.Marker({
-  				position: myLatlng,
-  				map: map,
-  				title:"Электронный маркетинг"
-			});
-	  	}
-		google.maps.event.addDomListener(window, 'load', initialize);
-	</script>
   </body>
 </html>
