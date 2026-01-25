@@ -18,4 +18,5 @@ DevOps: docker, kubernetes, helm, CI/CD
 \[LinkedIn\]: [www.linkedin.com/in/msviridenko](https://www.linkedin.com/in/msviridenko)
 
 ## Обучение / Сертификаты
-\[Yandex Cloud\]:
+\[Yandex Cloud\]: [Контейнеризация с Docker](https://emark.github.io/cert/yc-devops-container.pdf) - 12/2024  
+\[Rebrain\]: [DevOps-инженер](https://emark.github.io/cert/devops_rebrain.pdf) - 01/2026  
