@@ -20,4 +20,4 @@
 ## Обучение / Сертификаты
 \[Yandex Cloud\]: [Контейнеризация с Docker](https://emark.github.io/cert/yc-devops-container.pdf) - 12/2024  
 \[Rebrain\]: [DevOps-инженер](https://emark.github.io/cert/devops_rebrain.pdf) - 01/2026  
-\[Yandex Cloud\]: [Контейнеризация с Docker](https://emark.github.io/cert/yc-devops-terra.pdf) - 02/2026  
+\[Yandex Cloud\]: [IaC:Terraform](https://emark.github.io/cert/yc-devops-terra.pdf) - 02/2026  
