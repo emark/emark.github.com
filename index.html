@@ -16,6 +16,8 @@
     />
     <script src="./assets/js/color-modes.js"></script>
     <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!--Icons CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <meta name="theme-color" content="#712cf9" />
     <style>
       .bd-placeholder-img {
@@ -204,138 +206,209 @@
       </symbol>
     </svg>
     <div class="col-lg-8 mx-auto p-4 py-md-5">
-      <header class="d-flex align-items-center pb-3 mb-5 border-bottom">      
+      <header class="d-sm-flex align-items-center pb-3 mb-5 border-bottom">      
           <img src="./media/profile.jpg" class="rounded-circle" alt="...">&nbsp;&nbsp;
         <a
           href="/"
-          class="d-flex align-items-center text-body-emphasis text-decoration-none"
+          class="d-sm-flex align-items-center text-body-emphasis text-decoration-none"
         >
           <span class="fs-4">Maksim Sviridenko</span>
-        </a>
-
+        </a>&nbsp;&nbsp;
+        <small class="align-items-left text-body-emphasis text-decoration-none">v.1.0</small>
       </header>
       <main>
         <h1 class="text-body-emphasis">Personal information</h1>
-        <p class="fs-5 col-md-8">
-          <ol>
-            <li>Education</li>
-            <li>Qualifications</li>
-            <li>Work experience</li>
-          </ol>
-        </p>
+        <pre>
+Location: Krasnoyarsk, Russia
+Time zone: Asia/Krasnoyarsk
+Languages: Russian (primary), English (secondary), Chinese (secondary)
+Position: IT-Developer, DevOps
+About me: Perl developer since 2006
+Programming languages: perl, go, python
+OS: Ubuntu, Debian, FreeBSD, Windows
+Terminals: bash, sh, zsh
+DevOps stack: Docker, Kubernetes, Helm, Terraform, CI/CD, ArgoCD, Gitlab
+Interests: Software development, Web Development, IoT, linux, Hiking, Reading
+        </pre>
+        <div class="pb-4 mb-3 border-bottom">
+          <a href="#" class="btn btn-outline-primary">Download PDF</a>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Education
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+      <dl class="row">
+        <dt class="col-sm-3">1988-1998</dt>
+        <dd class="col-sm-9">Общеобразовательная школа</dd>
+        
+        <dt class="col-sm-3">1998-2004</dt>
+        <dd class="col-sm-9">
+          <p>Красноярский государственный университет</p>
+          <p>Специальность: радиофизика</p>
+        </dd>
+        <dt class="col-sm-3">2007-2010</dt>
+        <dd class="col-sm-9">
+          <p>Сибирский федеральный университет</p>
+          <p>Специальность: финансы и кредит</p>
+        </dd>
+      </dl>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Qualifications
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+      <dl class="row">
+        <dt class="col-sm-3">2002</dt>
+        <dd class="col-sm-9"> 
+          <p>СКТБ "Наука"</p>
+          <p>Квалификация: программист</p>
+        </dd>
+        <dt class="col-sm-3">2024</dt>
+        <dd class="col-sm-9"> 
+          <p>Yandex Cloud</p>
+          <p>Course: Docker conteinerisation</p>
+        </dd>
+        <dt class="col-sm-3">2026</dt>
+        <dd class="col-sm-9"> 
+          <p>Rebrain</p>
+          <p>Course: DevOps Engineer</p>
+        </dd>
+        <dt class="col-sm-3">2026</dt>
+        <dd class="col-sm-9"> 
+          <p>Yandex Cloud</p>
+          <p>Course: IaC: Terraform</p>
+        </dd>
+      </dl>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Work experience
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+      <dl class="row">
+        <dt class="col-sm-3">2004-2007</dt>
+        <dd class="col-sm-9"> 
+          <p>Tri medvedya, LLC</p>
+          <p>Position: CTO</p>
+        </dd>
+        <dt class="col-sm-3">2007-2020</dt>
+        <dd class="col-sm-9"> 
+          <p>Complex-K, LLC</p>
+          <p>Position: *</p>
+        </dd>
+        <dt class="col-sm-3">2012-2023</dt>
+        <dd class="col-sm-9"> 
+          <p>Emark, LLC</p>
+          <p>Position: CEO</p>
+        </dd>
+        <dt class="col-sm-3">2014-*</dt>
+        <dd class="col-sm-9"> 
+          <p>Tri medvedya, LLC</p>
+          <p>Position: CEO</p>
+        </dd>
+      </dl>
+      </div>
+    </div>
+  </div>
+</div>
 
-        <hr class="col-3 col-md-2 mb-5" />
+        <hr class="col-12 mb-5" />
         <div class="row g-5">
           <div class="col-md-6">
             <h2 class="text-body-emphasis">Certificates</h2>
             <p>
-              Ready to go beyond the starter template? Check out these open
-              source projects that you can quickly duplicate to a new GitHub
-              repository.
+              My achievements, awards, and professional development certificates.
             </p>
             <ul class="list-unstyled ps-0">
               <li>
                 <a
                   class="icon-link mb-1"
-                  href="https://github.com/twbs/examples/tree/main/icons-font"
+                  href="cert/yc-devops-container.pdf"
                   rel="noopener"
                   target="_blank"
                 >
                   <svg class="bi" width="16" height="16" aria-hidden="true">
                     <use xlink:href="#arrow-right-circle"></use>
                   </svg>
-                  Bootstrap npm starter
+                  Yandex Cloud - Docker conteinerisation (2024)
                 </a>
               </li>
               <li>
                 <a
                   class="icon-link mb-1"
-                  href="https://github.com/twbs/examples/tree/main/parcel"
+                  href="cert/devops_rebrain.pdf"
                   rel="noopener"
                   target="_blank"
                 >
                   <svg class="bi" width="16" height="16" aria-hidden="true">
                     <use xlink:href="#arrow-right-circle"></use>
                   </svg>
-                  Bootstrap Parcel starter
+                  Rebrain - DevOps Engineer (2026)
                 </a>
               </li>
               <li>
                 <a
                   class="icon-link mb-1"
-                  href="https://github.com/twbs/examples/tree/main/vite"
+                  href="cert/yc-devops-terra.pdf"
                   rel="noopener"
                   target="_blank"
                 >
                   <svg class="bi" width="16" height="16" aria-hidden="true">
                     <use xlink:href="#arrow-right-circle"></use>
                   </svg>
-                  Bootstrap Vite starter
-                </a>
-              </li>
-              <li>
-                <a
-                  class="icon-link mb-1"
-                  href="https://github.com/twbs/examples/tree/main/webpack"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  <svg class="bi" width="16" height="16" aria-hidden="true">
-                    <use xlink:href="#arrow-right-circle"></use>
-                  </svg>
-                  Bootstrap Webpack starter
+                  Yandex Cloud - IaC: Terraform (2026)
                 </a>
               </li>
             </ul>
           </div>
           <div class="col-md-6">
-            <h2 class="text-body-emphasis">Guides</h2>
+            <h2 class="text-body-emphasis">Links</h2>
             <p>
-              Read more detailed instructions and documentation on using or
-              contributing to Bootstrap.
+              Additional information about me and ways to contact me.
             </p>
             <ul class="list-unstyled ps-0">
               <li>
                 <a
                   class="icon-link mb-1"
-                  href="./getting-started/introduction"
+                  href="https://github.com/emark"
+                  target=_blank
                 >
                   <svg class="bi" width="16" height="16" aria-hidden="true">
                     <use xlink:href="#arrow-right-circle"></use>
                   </svg>
-                  Bootstrap quick start guide
+                  Github
                 </a>
               </li>
               <li>
-                <a class="icon-link mb-1" href="./getting-started/webpack">
+                <a class="icon-link mb-1" href="https://linkedin.com/in/msviridenko" target=_blank>
                   <svg class="bi" width="16" height="16" aria-hidden="true">
                     <use xlink:href="#arrow-right-circle"></use>
                   </svg>
-                  Bootstrap Webpack guide
+                  LinkedIn
                 </a>
               </li>
-              <li>
-                <a class="icon-link mb-1" href="./getting-started/parcel">
+               <li>
+                <a class="icon-link mb-1" href="mailto:sviridenko.maxim@gmail.com" target=_blank>
                   <svg class="bi" width="16" height="16" aria-hidden="true">
                     <use xlink:href="#arrow-right-circle"></use>
                   </svg>
-                  Bootstrap Parcel guide
-                </a>
-              </li>
-              <li>
-                <a class="icon-link mb-1" href="./getting-started/vite">
-                  <svg class="bi" width="16" height="16" aria-hidden="true">
-                    <use xlink:href="#arrow-right-circle"></use>
-                  </svg>
-                  Bootstrap Vite guide
-                </a>
-              </li>
-              <li>
-                <a class="icon-link mb-1" href="./getting-started/contribute">
-                  <svg class="bi" width="16" height="16" aria-hidden="true">
-                    <use xlink:href="#arrow-right-circle"></use>
-                  </svg>
-                  Contributing to Bootstrap
+                  Gmail
                 </a>
               </li>
             </ul>
