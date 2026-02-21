@@ -52,6 +52,19 @@ Then open http://localhost:8000 in your browser.
 No automated validation is configured. For HTML validation, you may manually use:
 - W3C HTML Validator: https://validator.w3.org/
 
+### Testing
+
+This project has **no test framework** and **no automated tests**. Testing is performed manually by:
+- Opening the site locally and verifying functionality
+- Using browser developer tools to check for console errors
+- Validating HTML at https://validator.w3.org/
+
+When making changes, manually verify:
+- Page loads without console errors
+- Dark/light theme toggle works
+- All links are functional
+- Site is responsive on mobile/tablet/desktop
+
 ## Code Style Guidelines
 
 Since this is a static HTML site with minimal JavaScript, follow these guidelines:
@@ -79,6 +92,10 @@ Since this is a static HTML site with minimal JavaScript, follow these guideline
 - Use ES6+ syntax (const/let, arrow functions, template literals)
 - Keep code minimal - only theme toggle functionality
 - Bootstrap JS is loaded from `assets/dist/js/bootstrap.bundle.min.js` (minified)
+- Use descriptive variable names (camelCase for variables, PascalCase for constants)
+- Wrap code in IIFE or use ES modules to avoid global scope pollution
+- Handle errors gracefully with try/catch for any DOM manipulation
+- Use console.warn instead of console.error for non-critical issues
 
 ### File Paths
 
