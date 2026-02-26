@@ -85,6 +85,11 @@ The project uses OpenCode for AI-assisted code reviews via GitHub Actions:
 - Wrap code in IIFE to avoid global scope pollution
 - Handle errors gracefully with try/catch for DOM manipulation
 - Use console.warn instead of console.error for non-critical issues
+- Always check if DOM elements exist before manipulating them (e.g., `if (!element) return`)
+- Use template literals for string concatenation
+- Prefer const over let; avoid var
+- Use arrow functions for callbacks
+- Chain array methods (forEach, map, filter) instead of traditional loops
 
 ### File Paths
 

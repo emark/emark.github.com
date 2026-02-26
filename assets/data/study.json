@@ -1,0 +1,17 @@
+{
+  "yc-ml-deployment": {
+    "name": "ML models deployment",
+    "x": 3,
+    "y": 10
+  },
+  "yc-ydb-admin": {
+    "name": "YDB Administration",
+    "x": 1,
+    "y": 6 
+  },
+  "yc-cloud-computing": {
+    "name": "Cloud Computing",
+    "x": 5,
+    "y": 9
+  }
+}
