@@ -1,7 +1,7 @@
 {
   "yc-ml-deployment": {
     "name": "ML models deployment",
-    "x": 5,
+    "x": 7,
     "y": 10
   },
   "yc-ydb-admin": {
