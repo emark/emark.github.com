@@ -13,5 +13,10 @@
     "name": "Cloud Computing",
     "x": 5,
     "y": 9
+  },
+  "rebrain-terraform-v2": {
+    "name": "Terraform V2.0",
+    "x": 1,
+    "y": 14
   }
 }
