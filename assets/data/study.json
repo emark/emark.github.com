@@ -1,9 +1,4 @@
 {
-  "yc-ml-deployment": {
-    "name": "ML models deployment",
-    "x": 10,
-    "y": 10
-  },
   "yc-ydb-admin": {
     "name": "YDB Administration",
     "x": 1,
@@ -16,7 +11,7 @@
   },
   "rebrain-terraform-v2": {
     "name": "Terraform V2.0",
-    "x": 1,
+    "x": 2,
     "y": 14
   }
 }
