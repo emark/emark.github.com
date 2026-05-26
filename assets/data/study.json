@@ -13,5 +13,10 @@
     "name": "ML Prompting",
     "x": 4,
     "y": 15
+  },
+  "rb-bind": {
+    "name": "Bind",
+    "x": 3,
+    "y": 13
   }
 }
